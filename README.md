@@ -1,7 +1,7 @@
 # ScoreToStorage
 
-## scoreboardのスコアをstorageに保存します
+scoreboardのスコアをstorageに保存します
 
-## basePointとbonusPointを与えて
+basePointとbonusPointを与えて
 
 ```function stos:run```
