@@ -1,4 +1,3 @@
-data modify storage stos: score append value {}
 $data modify storage stos: score[$(storage)].$(name).basePoint set value $(basePoint)
 $data modify storage stos: score[$(storage)].$(name).bonusPoint set value $(bonusPoint)
 $data modify storage stos: score[$(storage)].$(name).finalPoint set value $(finalPoint)

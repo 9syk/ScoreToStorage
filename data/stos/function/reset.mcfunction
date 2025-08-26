@@ -1,3 +1,2 @@
-data modify storage stos: score set value []
-scoreboard players set $storage stos 0
+data remove storage stos: score
 tellraw @a {text:"[ScoreToStorage] storageをリセットしました"}
