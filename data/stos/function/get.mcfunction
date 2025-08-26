@@ -6,5 +6,4 @@ data modify storage stos: name set from entity @s Inventory[{Slot:9b}].component
 execute store result storage stos: basePoint int 1 run scoreboard players get @s basePoint
 execute store result storage stos: bonusPoint int 1 run scoreboard players get @s bonusPoint
 execute store result storage stos: finalPoint int 1 run scoreboard players get @s finalPoint
-
 function stos:write with storage stos:
